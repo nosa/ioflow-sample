@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>editor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" sizes="any" href="images/favicon.ico">
+    <!-- build:css styles/editor.min.css -->
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Stanko/skyblue/gh-pages/css/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="styles/components/ioflow.css">
+    <link rel="stylesheet" type="text/css" href="styles/wms.css">
+    <!-- <link rel="stylesheet" href="styles/editor.css"/> -->
+    <!-- endbuild -->
+</head>
+<body style="overflow: auto; overflow-x: hidden;">
+
+<div class="row">
+    <div class="col md-2 title">
+        <label>Project Code</label>
+    </div>
+    <div class="col md-2">
+        <label>PJT1</label>
+    </div>
+    <div class="col md-2 title">
+        <label>Process ID</label>
+    </div>
+    <div class="col md-2">
+        <label>ABC</label>
+    </div>
+    <div class="col md-2 title">
+        <label>Sub Process ID</label>
+    </div>
+    <div class="col md-2">
+        <label>D123</label>
+    </div>
+</div>
+<div class="row">
+    <div class="col md-2 title">
+        <label>Project Name</label>
+    </div>
+    <div class="col md-2">
+        <label>PJT1 Name</label>
+    </div>
+    <div class="col md-2 title">
+        <label>Process Name</label>
+    </div>
+    <div class="col md-2">
+        <label>ABC Workflow</label>
+    </div>
+    <div class="col md-2 title">
+        <label>Sub Process Name</label>
+    </div>
+    <div class="col md-2">
+        <label>D123 Name</label>
+    </div>
+</div>
+<div class="row btnbar">
+    <div class="col md-8">
+    </div>
+    <div class="col md-4">
+        <a class="btn btn-sm" id="btnAddActivity">Add Activity</a>
+        <a class="btn btn-sm" id="btnAddInput">Add Input</a>
+        <a class="btn btn-sm" id="btnAddOutput">Add Output</a>
+    </div>
+</div>
+
+
+<div class="flow">
+    
+</div>
+
+<div class="flow2">
+    
+</div>
+
+    <!-- build:js scripts/editor.min.js -->
+    <script src="bower_components/d3/d3.min.js"></script>
+    <script src="scripts/components/ioflow.js"></script>
+    <script src="scripts/components/ioflow-panel.js"></script>
+    <script src="scripts/components/ioflow-item.js"></script>
+    <script src="scripts/components/ioflow-line.js"></script>
+    <script src="scripts/components/ioflow-point.js"></script>
+    <script src="scripts/components/ioflow-util.js"></script>
+    <script src="scripts/wms.js"></script>
+    <script src="scripts/editor.js"></script>
+<!--     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/i18next/i18next.min.js"></script>
+    <script src="scripts/editor.js"></script> -->
+    <!-- endbuild -->
+</body>
+</html>
